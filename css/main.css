@@ -1,3 +1,4 @@
+/* Icons Source: https://www.iconfinder.com/iconsets/small-n-flat */
 .app {
     text-align: center;
 }
@@ -303,6 +304,19 @@
     margin: auto;
 }
 
+.card__image--add {
+    background: url("../img/add.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    /* border: 1px solid rgba(0, 0, 0, 0.25); */
+    /* filter: blur(3px); */
+    /* filter: opacity(70%); */
+    image-rendering: optimizeQuality;
+    margin: auto;
+    opacity: 0.5;
+}
+
 .card__image--git {
     background: url("../img/github.png");
     background-position: center;
@@ -322,6 +336,38 @@
     height: 400px;
     margin-top: 5px;
 }
+
+.card--bookmark__list{
+    height: 100%;
+    list-style-type: none;
+    padding: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+.card--bookmark__list li{
+    color: #6c757d !important;
+    height: 25px;
+    margin: 7px 0 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card--bookmark__list li:hover{
+    color: #383838 !important;
+    cursor: pointer;
+}
+
+.card--bookmark__listicon {
+    display: block;
+    float:left;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 2px;
+    width: 20px;
+}
+
 
 /* Circle */
 .circle {
